@@ -20,6 +20,12 @@ h1.logo{
 	padding: 1px;
 }
 
+h3 {
+	font-family: "maven-pro";
+	text-align: left;
+	padding-left: 150px;
+}
+
 section {
 	float: left;
 	padding-left: 100px;
