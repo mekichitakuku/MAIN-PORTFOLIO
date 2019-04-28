@@ -22,36 +22,35 @@ h1.logo{
 
 section {
 	float: left;
-	padding-left: 40px;
+	padding-left: 30px;
 	padding-bottom: 200px;
-	text-align: center;
-	
+	background-color:#404040;
+	color: white;
+	text-align: left;
 }
 
 section a{
-	background: linear-gradient(#99FFFF , white , #99FFCC);
-    color: black;
-    padding: 14px 50px ;
+	background-color: limegreen;
+    color: white;
+    padding: 14px 25px;
     text-align: center; 
     text-decoration: none;
     display: inline-block;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-	border-radius: 25px;
-	border: 2px solid #5A66C1; 
-	font-size: 20px;
 }
-
 
 section p {
 	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 	font-size: 18px;
+	float: left;
+	line-height: 10%;
+
 }
 
 
 section h1 {
 	font-size: 30px;
-	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
-	text-align: center;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	letter-spacing: 1px; 
 }
 
 
@@ -98,6 +97,7 @@ li a {
 	text-decoration: none;
 	color: white;
 	padding: 8px;
+
 }
 
 li a:hover { 
