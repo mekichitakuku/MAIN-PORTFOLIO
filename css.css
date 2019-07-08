@@ -2,7 +2,7 @@
 /* CSS Document */
 
 html {
-	background: url(photos/bgwallpaper.jpg) no-repeat center center fixed; 
+	background: url(photos/photo-1510218129079-74e00c5a90ea.jpeg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -11,9 +11,18 @@ html {
 }
 
 body {
-	 
 	
 }
+
+h1{
+	letter-spacing: 3px;
+}
+
+#responsive-image {  
+	width: 100%;  
+	height: auto; 
+} 
+
 
 h1.logo{
 	float: left;
@@ -21,9 +30,15 @@ h1.logo{
 }
 
 section {
-	float: left;
-	padding-left: 80px;
-	padding-bottom: 200px;
+
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	text-align: center;
+	background-color: #6C6A8B;
+	color: white;
+	opacity: 0.9; 
+		
 }
 
 section a{
@@ -47,12 +62,13 @@ section h1 {
 }
 
 
+
+
 .footer { 
 	
 	padding-bottom: 5px;
 	padding-top: 10px;
 	
-	position: fixed;
 	left: 0;
    	bottom: 0;
 	right: 0; 
@@ -74,14 +90,14 @@ ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: black;
+	background-color: #873615;
 	width: 100%;
 }
 
 li { 
 	display: inline;
 	float: right;
-	border: 1px solid #bbb;
+	text-align: center;
 }
 
 li a { 
@@ -89,8 +105,8 @@ li a {
 	text-align: center; 
 	text-decoration: none;
 	color: white;
-	padding: 8px;
-
+	padding: 20px;
+	font-size: 20px;
 }
 
 li a:hover { 
@@ -105,7 +121,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn{
-	background-color: black;
+	background-color: #FBA100;
 	color: white; 
 	
 }
@@ -113,6 +129,7 @@ li a:hover, .dropdown:hover .dropbtn{
 li.dropdown {
 	display: inline-block;
 }
+
 
 .dropdown-content {
 	display: none;
@@ -129,12 +146,13 @@ li.dropdown {
 }
 
 .dropdown-content a:hover {
-	background-color: black;
-	color: white;
+	background-color: #FBA100;
+	color: white; 
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+	
 }
 
 
@@ -145,7 +163,7 @@ li.dropdown {
 */
 @media only screen and (min-width:1281px) { 
 	body {
-	
+
 	}
 }
 

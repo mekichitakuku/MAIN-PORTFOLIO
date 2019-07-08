@@ -2,7 +2,7 @@
 /* CSS Document */
 
 html {
-	background: url(photos/bgwallpaper.jpg) no-repeat center center fixed; 
+	background: url(photos/photo-1510218129079-74e00c5a90ea.jpeg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -20,31 +20,39 @@ h1.logo{
 	padding: 1px;
 }
 
+h2{
+	color: white;
+}
+
 h3 {
 	font-family: "maven-pro";
 	text-align: left;
 	padding-left: 150px;
+	color: white;
 }
 
 section {
-	float: left;
-	padding-left: 100px;
-	padding-bottom: 200px;
+	padding-bottom: 30px;
 	text-align: center;
 	
 }
 
 section a{
-	background: linear-gradient(#99FFFF , white , #99FFCC);
-    color: black;
+	background-color: #6BBAA7;
+    color: white;
     padding: 14px 50px ;
     text-align: center; 
     text-decoration: none;
     display: inline-block;
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-	border-radius: 25px;
-	border: 2px solid #5A66C1; 
 	font-size: 20px;
+	font-weight: bold;
+
+}
+
+section a:hover{
+	background-color: #6C6A8B;
+	color: white;
 }
 
 section p {
@@ -65,7 +73,6 @@ section h1 {
 	padding-bottom: 5px;
 	padding-top: 10px;
 	
-	position: fixed;
 	left: 0;
    	bottom: 0;
 	right: 0; 
@@ -87,14 +94,14 @@ ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: black;
+	background-color: #873615;
 	width: 100%;
 }
 
 li { 
 	display: inline;
 	float: right;
-	border: 1px solid #bbb;
+	text-align: center;
 }
 
 li a { 
@@ -102,7 +109,8 @@ li a {
 	text-align: center; 
 	text-decoration: none;
 	color: white;
-	padding: 8px;
+	padding: 20px;
+	font-size: 20px;
 }
 
 li a:hover { 
@@ -117,7 +125,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn{
-	background-color: black;
+	background-color: #FBA100;
 	color: white; 
 	
 }
@@ -125,6 +133,7 @@ li a:hover, .dropdown:hover .dropbtn{
 li.dropdown {
 	display: inline-block;
 }
+
 
 .dropdown-content {
 	display: none;
@@ -141,12 +150,13 @@ li.dropdown {
 }
 
 .dropdown-content a:hover {
-	background-color: black;
-	color: white;
+	background-color: #FBA100;
+	color: white; 
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+	
 }
 
 
